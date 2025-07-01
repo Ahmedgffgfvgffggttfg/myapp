@@ -1,0 +1,482 @@
+ [
+    {
+      "id": 1,
+      "question": "من هو أول نبي بعثه الله تعالى؟",
+      "options": [
+        {"text": "إبراهيم عليه السلام", "isCorrect": false},
+        {"text": "آدم عليه السلام", "isCorrect": true},
+        {"text": "نوح عليه السلام", "isCorrect": false},
+        {"text": "موسى عليه السلام", "isCorrect": false}
+      ],
+      "difficulty": "سهل",
+      "category": "الأنبياء"
+    },
+    {
+      "id": 2,
+      "question": "ما هي أول سورة نزلت كاملة في القرآن الكريم؟",
+      "options": [
+        {"text": "الفاتحة", "isCorrect": true},
+        {"text": "العلق", "isCorrect": false},
+        {"text": "المدثر", "isCorrect": false},
+        {"text": "المزمل", "isCorrect": false}
+      ],
+      "difficulty": "سهل",
+      "category": "القرآن الكريم"
+    },
+    {
+      "id": 3,
+      "question": "كم عدد الصلوات المفروضة في اليوم والليلة؟",
+      "options": [
+        {"text": "ثلاث صلوات", "isCorrect": false},
+        {"text": "أربع صلوات", "isCorrect": false},
+        {"text": "خمس صلوات", "isCorrect": true},
+        {"text": "سبع صلوات", "isCorrect": false}
+      ],
+      "difficulty": "سهل",
+      "category": "الفقه والعبادات"
+    },
+    {
+      "id": 4,
+      "question": "ما اسم الغزوة التي وقعت في شهر رمضان؟",
+      "options": [
+        {"text": "غزوة أحد", "isCorrect": false},
+        {"text": "غزوة الخندق", "isCorrect": false},
+        {"text": "غزوة بدر", "isCorrect": true},
+        {"text": "غزوة تبوك", "isCorrect": false}
+      ],
+      "difficulty": "سهل",
+      "category": "السيرة النبوية"
+    },
+    {
+      "id": 5,
+      "question": "من هو خاتم الأنبياء والمرسلين؟",
+      "options": [
+        {"text": "عيسى عليه السلام", "isCorrect": false},
+        {"text": "موسى عليه السلام", "isCorrect": false},
+        {"text": "محمد صلى الله عليه وسلم", "isCorrect": true},
+        {"text": "إبراهيم عليه السلام", "isCorrect": false}
+      ],
+      "difficulty": "سهل",
+      "category": "الأنبياء"
+    },
+    {
+      "id": 6,
+      "question": "ما هي السورة التي تعدل ثلث القرآن؟",
+      "options": [
+        {"text": "سورة البقرة", "isCorrect": false},
+        {"text": "سورة الإخلاص", "isCorrect": true},
+        {"text": "سورة الكهف", "isCorrect": false},
+        {"text": "سورة يس", "isCorrect": false}
+      ],
+      "difficulty": "سهل",
+      "category": "القرآن الكريم"
+    },
+    {
+      "id": 7,
+      "question": "ما هو الركن الثالث من أركان الإسلام؟",
+      "options": [
+        {"text": "الصلاة", "isCorrect": false},
+        {"text": "الصيام", "isCorrect": false},
+        {"text": "الزكاة", "isCorrect": true},
+        {"text": "الحج", "isCorrect": false}
+      ],
+      "difficulty": "سهل",
+      "category": "الفقه والعبادات"
+    },
+    {
+      "id": 8,
+      "question": "أين ولد الرسول صلى الله عليه وسلم؟",
+      "options": [
+        {"text": "المدينة المنورة", "isCorrect": false},
+        {"text": "القدس", "isCorrect": false},
+        {"text": "مكة المكرمة", "isCorrect": true},
+        {"text": "الطائف", "isCorrect": false}
+      ],
+      "difficulty": "سهل",
+      "category": "السيرة النبوية"
+    },
+    {
+      "id": 9,
+      "question": "ما هو اسم الصحابي الملقب بذي النورين؟",
+      "options": [
+        {"text": "عمر بن الخطاب", "isCorrect": false},
+        {"text": "أبو بكر الصديق", "isCorrect": false},
+        {"text": "عثمان بن عفان", "isCorrect": true},
+        {"text": "علي بن أبي طالب", "isCorrect": false}
+      ],
+      "difficulty": "متوسط",
+      "category": "الصحابة"
+    },
+    {
+      "id": 10,
+      "question": "كم عدد سور القرآن الكريم؟",
+      "options": [
+        {"text": "110 سورة", "isCorrect": false},
+        {"text": "114 سورة", "isCorrect": true},
+        {"text": "120 سورة", "isCorrect": false},
+        {"text": "100 سورة", "isCorrect": false}
+      ],
+      "difficulty": "سهل",
+      "category": "القرآن الكريم"
+    },
+    {
+      "id": 11,
+      "question": "من هو خليل الرحمن؟",
+      "options": [
+        {"text": "موسى عليه السلام", "isCorrect": false},
+        {"text": "إبراهيم عليه السلام", "isCorrect": true},
+        {"text": "إسماعيل عليه السلام", "isCorrect": false},
+        {"text": "يوسف عليه السلام", "isCorrect": false}
+      ],
+      "difficulty": "سهل",
+      "category": "الأنبياء"
+    },
+    {
+      "id": 12,
+      "question": "ما هي أطول سورة في القرآن الكريم؟",
+      "options": [
+        {"text": "سورة آل عمران", "isCorrect": false},
+        {"text": "سورة النساء", "isCorrect": false},
+        {"text": "سورة البقرة", "isCorrect": true},
+        {"text": "سورة الأعراف", "isCorrect": false}
+      ],
+      "difficulty": "سهل",
+      "category": "القرآن الكريم"
+    },
+    {
+      "id": 13,
+      "question": "ما هو أول بيت وضع للناس في الأرض؟",
+      "options": [
+        {"text": "المسجد النبوي", "isCorrect": false},
+        {"text": "المسجد الأقصى", "isCorrect": false},
+        {"text": "الكعبة المشرفة", "isCorrect": true},
+        {"text": "مسجد قباء", "isCorrect": false}
+      ],
+      "difficulty": "سهل",
+      "category": "التاريخ الإسلامي"
+    },
+    {
+      "id": 14,
+      "question": "في أي شهر فرض صيام رمضان؟",
+      "options": [
+        {"text": "شعبان", "isCorrect": false},
+        {"text": "رجب", "isCorrect": false},
+        {"text": "شوال", "isCorrect": false},
+        {"text": "رمضان", "isCorrect": true}
+      ],
+      "difficulty": "سهل",
+      "category": "الفقه والعبادات"
+    },
+    {
+      "id": 15,
+      "question": "من هو أول خليفة في الإسلام؟",
+      "options": [
+        {"text": "عمر بن الخطاب", "isCorrect": false},
+        {"text": "عثمان بن عفان", "isCorrect": false},
+        {"text": "أبو بكر الصديق", "isCorrect": true},
+        {"text": "علي بن أبي طالب", "isCorrect": false}
+      ],
+      "difficulty": "سهل",
+      "category": "الخلفاء الراشدون"
+    },
+    {
+      "id": 16,
+      "question": "ما هي السورة التي لم تبدأ بالبسملة؟",
+      "options": [
+        {"text": "سورة التوبة", "isCorrect": true},
+        {"text": "سورة الفلق", "isCorrect": false},
+        {"text": "سورة النصر", "isCorrect": false},
+        {"text": "سورة المسد", "isCorrect": false}
+      ],
+      "difficulty": "متوسط",
+      "category": "القرآن الكريم"
+    },
+    {
+      "id": 17,
+      "question": "في أي سنة هجرية وقعت غزوة الخندق (الأحزاب)؟",
+      "options": [
+        {"text": "السنة الثالثة للهجرة", "isCorrect": false},
+        {"text": "السنة الخامسة للهجرة", "isCorrect": true},
+        {"text": "السنة السابعة للهجرة", "isCorrect": false},
+        {"text": "السنة التاسعة للهجرة", "isCorrect": false}
+      ],
+      "difficulty": "متوسط",
+      "category": "السيرة النبوية"
+    },
+    {
+      "id": 18,
+      "question": "من هو النبي الذي سخر له الله الريح؟",
+      "options": [
+        {"text": "موسى عليه السلام", "isCorrect": false},
+        {"text": "داود عليه السلام", "isCorrect": false},
+        {"text": "سليمان عليه السلام", "isCorrect": true},
+        {"text": "يوسف عليه السلام", "isCorrect": false}
+      ],
+      "difficulty": "متوسط",
+      "category": "الأنبياء"
+    },
+    {
+      "id": 19,
+      "question": "ما اسم بئر زمزم؟",
+      "options": [
+        {"text": "بئر الشفاء", "isCorrect": false},
+        {"text": "بئر النور", "isCorrect": false},
+        {"text": "بئر السيدة هاجر", "isCorrect": true},
+        {"text": "بئر الإيمان", "isCorrect": false}
+      ],
+      "difficulty": "متوسط",
+      "category": "التاريخ الإسلامي"
+    },
+    {
+      "id": 20,
+      "question": "ما هي السورة التي ذكرت فيها البسملة مرتين؟",
+      "options": [
+        {"text": "سورة البقرة", "isCorrect": false},
+        {"text": "سورة النمل", "isCorrect": true},
+        {"text": "سورة الكهف", "isCorrect": false},
+        {"text": "سورة الإسراء", "isCorrect": false}
+      ],
+      "difficulty": "متوسط",
+      "category": "القرآن الكريم"
+    },
+    {
+      "id": 21,
+      "question": "ما هو الحد الأقصى للمدة التي يمكن للمسافر أن يقصر فيها الصلاة؟",
+      "options": [
+        {"text": "يوم واحد", "isCorrect": false},
+        {"text": "ثلاثة أيام", "isCorrect": false},
+        {"text": "أربعة أيام", "isCorrect": true},
+        {"text": "سبعة أيام", "isCorrect": false}
+      ],
+      "difficulty": "صعب",
+      "category": "الفقه والعبادات"
+    },
+    {
+      "id": 22,
+      "question": "من هو أول من جهر بالقرآن الكريم في مكة؟",
+      "options": [
+        {"text": "حمزة بن عبد المطلب", "isCorrect": false},
+        {"text": "عمر بن الخطاب", "isCorrect": false},
+        {"text": "عبد الله بن مسعود", "isCorrect": true},
+        {"text": "أبو ذر الغفاري", "isCorrect": false}
+      ],
+      "difficulty": "صعب",
+      "category": "الصحابة"
+    },
+    {
+      "id": 23,
+      "question": "ما هو الشهر الذي كان يحبه الرسول صلى الله عليه وسلم أن يصوم فيه بعد رمضان؟",
+      "options": [
+        {"text": "شعبان", "isCorrect": true},
+        {"text": "شوال", "isCorrect": false},
+        {"text": "محرم", "isCorrect": false},
+        {"text": "ذو القعدة", "isCorrect": false}
+      ],
+      "difficulty": "متوسط",
+      "category": "السنة النبوية"
+    },
+    {
+      "id": 24,
+      "question": "ما اسم الملك الموكل بالنفخ في الصور يوم القيامة؟",
+      "options": [
+        {"text": "جبريل", "isCorrect": false},
+        {"text": "ميكائيل", "isCorrect": false},
+        {"text": "إسرافيل", "isCorrect": true},
+        {"text": "عزرائيل", "isCorrect": false}
+      ],
+      "difficulty": "متوسط",
+      "category": "العقيدة"
+    },
+    {
+      "id": 25,
+      "question": "من هو النبي الذي ابتلعه الحوت؟",
+      "options": [
+        {"text": "نوح عليه السلام", "isCorrect": false},
+        {"text": "يونس عليه السلام", "isCorrect": true},
+        {"text": "صالح عليه السلام", "isCorrect": false},
+        {"text": "زكريا عليه السلام", "isCorrect": false}
+      ],
+      "difficulty": "سهل",
+      "category": "الأنبياء"
+    },
+    {
+      "id": 26,
+      "question": "كم مرة ذكر اسم 'محمد' في القرآن الكريم؟",
+      "options": [
+        {"text": "مرتين", "isCorrect": false},
+        {"text": "ثلاث مرات", "isCorrect": false},
+        {"text": "أربع مرات", "isCorrect": true},
+        {"text": "خمس مرات", "isCorrect": false}
+      ],
+      "difficulty": "صعب",
+      "category": "القرآن الكريم"
+    },
+    {
+      "id": 27,
+      "question": "ما اسم السورة التي تبدأ بالحرفين 'طسم'؟",
+      "options": [
+        {"text": "سورة القصص", "isCorrect": true},
+        {"text": "سورة الشعراء", "isCorrect": false},
+        {"text": "سورة النمل", "isCorrect": false},
+        {"text": "سورة الرعد", "isCorrect": false}
+      ],
+      "difficulty": "صعب",
+      "category": "القرآن الكريم"
+    },
+    {
+      "id": 28,
+      "question": "ما هي أول غزوة غزاها المسلمون بقيادة الرسول صلى الله عليه وسلم؟",
+      "options": [
+        {"text": "غزوة الأبواء (ودان)", "isCorrect": true},
+        {"text": "غزوة بدر", "isCorrect": false},
+        {"text": "غزوة العشيرة", "isCorrect": false},
+        {"text": "غزوة بواط", "isCorrect": false}
+      ],
+      "difficulty": "صعب",
+      "category": "السيرة النبوية"
+    },
+    {
+      "id": 29,
+      "question": "من هو صاحب لقب 'فاروق الأمة'؟",
+      "options": [
+        {"text": "أبو بكر الصديق", "isCorrect": false},
+        {"text": "عمر بن الخطاب", "isCorrect": true},
+        {"text": "عثمان بن عفان", "isCorrect": false},
+        {"text": "علي بن أبي طالب", "isCorrect": false}
+      ],
+      "difficulty": "متوسط",
+      "category": "الصحابة"
+    },
+    {
+      "id": 30,
+      "question": "كم عدد أبواب الجنة؟",
+      "options": [
+        {"text": "خمسة أبواب", "isCorrect": false},
+        {"text": "سبعة أبواب", "isCorrect": false},
+        {"text": "ثمانية أبواب", "isCorrect": true},
+        {"text": "عشرة أبواب", "isCorrect": false}
+      ],
+      "difficulty": "متوسط",
+      "category": "العقيدة"
+    },
+    {
+      "id": 31,
+      "question": "ما هي أكبر مدينة في المملكة العربية السعودية من حيث المساحة؟",
+      "options": [
+        {"text": "جدة", "isCorrect": false},
+        {"text": "مكة المكرمة", "isCorrect": false},
+        {"text": "الرياض", "isCorrect": true},
+        {"text": "المدينة المنورة", "isCorrect": false}
+      ],
+      "difficulty": "سهل",
+      "category": "معلومات عامة إسلامية"
+    },
+    {
+      "id": 32,
+      "question": "من هو أول مؤذن في الإسلام؟",
+      "options": [
+        {"text": "أبو بكر الصديق", "isCorrect": false},
+        {"text": "بلال بن رباح", "isCorrect": true},
+        {"text": "عبد الله بن أم مكتوم", "isCorrect": false},
+        {"text": "سعد بن أبي وقاص", "isCorrect": false}
+      ],
+      "difficulty": "سهل",
+      "category": "الصحابة"
+    },
+    {
+      "id": 33,
+      "question": "كم سنة استمر نزول القرآن الكريم؟",
+      "options": [
+        {"text": "13 سنة", "isCorrect": false},
+        {"text": "23 سنة", "isCorrect": true},
+        {"text": "33 سنة", "isCorrect": false},
+        {"text": "43 سنة", "isCorrect": false}
+      ],
+      "difficulty": "متوسط",
+      "category": "القرآن الكريم"
+    },
+    {
+      "id": 34,
+      "question": "ما هي المعجزة الكبرى للنبي محمد صلى الله عليه وسلم؟",
+      "options": [
+        {"text": "انشقاق القمر", "isCorrect": false},
+        {"text": "الإسراء والمعراج", "isCorrect": false},
+        {"text": "القرآن الكريم", "isCorrect": true},
+        {"text": "نبع الماء من بين أصابعه", "isCorrect": false}
+      ],
+      "difficulty": "سهل",
+      "category": "السيرة النبوية"
+    },
+    {
+      "id": 35,
+      "question": "ما هو اسم الوادي الذي حكى عنه النبي صلى الله عليه وسلم أنه وادٍ بوادي جهنم؟",
+      "options": [
+        {"text": "وادي محسر", "isCorrect": true},
+        {"text": "وادي حنيفة", "isCorrect": false},
+        {"text": "وادي العقيق", "isCorrect": false},
+        {"text": "وادي فاطمة", "isCorrect": false}
+      ],
+      "difficulty": "صعب",
+      "category": "الحديث النبوي"
+    },
+    {
+      "id": 36,
+      "question": "ما هي أول عاصمة للدولة الإسلامية بعد الهجرة؟",
+      "options": [
+        {"text": "مكة المكرمة", "isCorrect": false},
+        {"text": "المدينة المنورة", "isCorrect": true},
+        {"text": "الكوفة", "isCorrect": false},
+        {"text": "دمشق", "isCorrect": false}
+      ],
+      "difficulty": "سهل",
+      "category": "التاريخ الإسلامي"
+    },
+    {
+      "id": 37,
+      "question": "من هو أول من أسلم من الرجال؟",
+      "options": [
+        {"text": "عمر بن الخطاب", "isCorrect": false},
+        {"text": "أبو بكر الصديق", "isCorrect": true},
+        {"text": "علي بن أبي طالب", "isCorrect": false},
+        {"text": "حمزة بن عبد المطلب", "isCorrect": false}
+      ],
+      "difficulty": "سهل",
+      "category": "الصحابة"
+    },
+    {
+      "id": 38,
+      "question": "كم عدد أحزاب القرآن الكريم؟",
+      "options": [
+        {"text": "30 حزبًا", "isCorrect": false},
+        {"text": "40 حزبًا", "isCorrect": false},
+        {"text": "60 حزبًا", "isCorrect": true},
+        {"text": "100 حزب", "isCorrect": false}
+      ],
+      "difficulty": "متوسط",
+      "category": "القرآن الكريم"
+    },
+    {
+      "id": 39,
+      "question": "ما هي الصلاة التي ليس فيها ركوع ولا سجود؟",
+      "options": [
+        {"text": "صلاة الجنازة", "isCorrect": true},
+        {"text": "صلاة الاستسقاء", "isCorrect": false},
+        {"text": "صلاة الكسوف", "isCorrect": false},
+        {"text": "صلاة العيدين", "isCorrect": false}
+      ],
+      "difficulty": "متوسط",
+      "category": "الفقه والعبادات"
+    },
+    {
+      "id": 40,
+      "question": "ما اسم الصحابي الذي أشار على الرسول صلى الله عليه وسلم بحفر الخندق؟",
+      "options": [
+        {"text": "عمر بن الخطاب", "isCorrect": false},
+        {"text": "سلمان الفارسي", "isCorrect": true},
+        {"text": "أبو عبيدة بن الجراح", "isCorrect": false},
+        {"text": "خالد بن الوليد", "isCorrect": false}
+      ],
+      "difficulty": "متوسط",
+      "category": "الصحابة"
+    }
+  ]
