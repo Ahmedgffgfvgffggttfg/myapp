@@ -1,4 +1,5 @@
-// اسم الملف: lib/main.dart
+
+// File: lib/main.dart
 // this is a test
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
@@ -7,13 +8,7 @@ import 'home_screen.dart';
 import 'more_screen.dart';
 import 'package:prayer_app/background_service.dart'; // استيراد خدمة الخلفية
 
-void main() async { // جعل main دالة غير متزامنة
-  WidgetsFlutterBinding.ensureInitialized(); 
-  await initializeService(); // تهيئة خدمة الخلفية
-  initializeDateFormatting('ar', null).then((_) {
-    runApp(const PrayerApp());
-  });
-}
+
 
 class PrayerApp extends StatelessWidget {
   const PrayerApp({super.key});

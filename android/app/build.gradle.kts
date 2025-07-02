@@ -1,32 +1,32 @@
+import java.util.Properties
+
 plugins {
     id("com.android.application")
-    id("kotlin-android")
-    // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
+    kotlin("android")
     id("dev.flutter.flutter-gradle-plugin")
 }
 
-def localProperties = new Properties()
-def localPropertiesFile = rootProject.file("android/key.properties")
-if (localPropertiesFile.exists()) {
-    localPropertiesFile.withReader("UTF-8") { reader ->
-        localProperties.load(reader)
+fun localProperties(): Properties {
+    val properties = Properties()
+    val localPropertiesFile = rootProject.file("local.properties")
+    if (localPropertiesFile.exists()) {
+        localPropertiesFile.inputStream().use { properties.load(it) }
     }
+    return properties
 }
 
-def flutterVersionCode = localProperties.getProperty("flutter.versionCode")
-if (flutterVersionCode == null) {
-    flutterVersionCode = "1"
+val flutterVersionCode: Int by lazy {
+    localProperties().getProperty("flutter.versionCode")?.toIntOrNull() ?: 1
 }
 
-def flutterVersionName = localProperties.getProperty("flutter.versionName")
-if (flutterVersionName == null) {
-    flutterVersionName = "1.0"
+val flutterVersionName: String by lazy {
+    localProperties().getProperty("flutter.versionName") ?: "1.0"
 }
 
 android {
-    namespace = "com.prayerapp.app"
+    namespace = "com.example.myapp"
     compileSdk = 34
-    ndkVersion = "27.0.12077973"
+    ndkVersion = "25.1.8937393"
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
@@ -37,29 +37,21 @@ android {
         jvmTarget = "1.8"
     }
 
-    signingConfigs {
-        release {
-            if (localPropertiesFile.exists()) {
-                keyAlias = localProperties["keyAlias"]
-                keyPassword = localProperties["keyPassword"]
-                storeFile = file(localProperties["storeFile"])
-                storePassword = localProperties["storePassword"]
-            }
-        }
+    sourceSets.getByName("main") {
+        java.srcDirs("src/main/kotlin")
     }
 
     defaultConfig {
-        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId = "com.prayerapp.app"
+        applicationId = "com.example.myapp"
         minSdk = 21
         targetSdk = 34
-        versionCode = flutterVersionCode.toInteger()
+        versionCode = flutterVersionCode
         versionName = flutterVersionName
     }
 
     buildTypes {
-        release {
-            signingConfig = signingConfigs.getByName("release")
+        getByName("release") {
+            signingConfig = signingConfigs.getByName("debug")
         }
     }
 }
@@ -67,3 +59,5 @@ android {
 flutter {
     source = "../.."
 }
+
+dependencies {}

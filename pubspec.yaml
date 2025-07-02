@@ -50,7 +50,7 @@ flutter:
     - assets/quran.json
     - assets/Names_Of_Allah.json
     - assets/questions.json
-    - assets/audio/gototheprayer.m4a
+    
 
   # --- تعريف الخطوط ---
   fonts:
